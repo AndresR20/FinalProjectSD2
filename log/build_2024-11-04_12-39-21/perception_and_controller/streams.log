@@ -1,0 +1,22 @@
+[2.728s] Invoking command in '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/autonomous-vehicle-end-to-end-control-project-template/src/perception_and_controller': PYTHONPATH=/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/build/perception_and_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/install/perception_and_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/perception_and_controller build --build-base /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/build/perception_and_controller/build install --record /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/build/perception_and_controller/install.log --single-version-externally-managed install_data
+[3.486s] running egg_info
+[3.528s] writing ../../../build/perception_and_controller/perception_and_controller.egg-info/PKG-INFO
+[3.545s] writing dependency_links to ../../../build/perception_and_controller/perception_and_controller.egg-info/dependency_links.txt
+[3.571s] writing entry points to ../../../build/perception_and_controller/perception_and_controller.egg-info/entry_points.txt
+[3.571s] writing requirements to ../../../build/perception_and_controller/perception_and_controller.egg-info/requires.txt
+[3.571s] writing top-level names to ../../../build/perception_and_controller/perception_and_controller.egg-info/top_level.txt
+[3.571s] reading manifest file '../../../build/perception_and_controller/perception_and_controller.egg-info/SOURCES.txt'
+[3.571s] writing manifest file '../../../build/perception_and_controller/perception_and_controller.egg-info/SOURCES.txt'
+[3.571s] running build
+[3.572s] running build_py
+[3.580s] running install
+[3.598s] running install_lib
+[3.598s] running install_data
+[3.598s] running install_egg_info
+[3.606s] removing '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/install/perception_and_controller/lib/python3.10/site-packages/perception_and_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[3.606s] Copying ../../../build/perception_and_controller/perception_and_controller.egg-info to /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/install/perception_and_controller/lib/python3.10/site-packages/perception_and_controller-0.0.0-py3.10.egg-info
+[3.612s] running install_scripts
+[3.685s] Installing controller script to /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/install/perception_and_controller/lib/perception_and_controller
+[3.686s] Installing perception script to /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/install/perception_and_controller/lib/perception_and_controller
+[3.686s] writing list of installed files to '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/build/perception_and_controller/install.log'
+[3.825s] Invoked command in '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/autonomous-vehicle-end-to-end-control-project-template/src/perception_and_controller' returned '0': PYTHONPATH=/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/build/perception_and_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/install/perception_and_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/perception_and_controller build --build-base /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/build/perception_and_controller/build install --record /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/build/perception_and_controller/install.log --single-version-externally-managed install_data

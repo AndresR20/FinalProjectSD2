@@ -1,0 +1,4 @@
+[console_scripts]
+controller = perception_and_controller.controller:main
+perception = perception_and_controller.perception:main
+

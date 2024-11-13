@@ -1,0 +1,199 @@
+[0.259s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.259s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f26ad547430>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f26ad6f0dc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f26ad6f0dc0>>, mixin_verb=('build',))
+[0.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.636s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template) by extensions ['ignore', 'ignore_ament_install']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template) by extension 'ignore'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template) by extension 'ignore_ament_install'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template) by extensions ['colcon_pkg']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template) by extension 'colcon_pkg'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template) by extensions ['colcon_meta']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template) by extension 'colcon_meta'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template) by extensions ['ros']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template) by extension 'ros'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template) by extensions ['cmake', 'python']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template) by extension 'cmake'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template) by extension 'python'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template) by extensions ['python_setup_py']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template) by extension 'python_setup_py'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/build) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/build) by extension 'ignore'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/build) ignored
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/install) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/install) by extension 'ignore'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/install) ignored
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/log) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/log) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/log) ignored
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src) by extensions ['ignore', 'ignore_ament_install']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src) by extension 'ignore'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src) by extension 'ignore_ament_install'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src) by extensions ['colcon_pkg']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src) by extension 'colcon_pkg'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src) by extensions ['colcon_meta']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src) by extension 'colcon_meta'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src) by extensions ['ros']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src) by extension 'ros'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src) by extensions ['cmake', 'python']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src) by extension 'cmake'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src) by extension 'python'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src) by extensions ['python_setup_py']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src) by extension 'python_setup_py'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src/gazebo_project) by extensions ['ignore', 'ignore_ament_install']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src/gazebo_project) by extension 'ignore'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src/gazebo_project) by extension 'ignore_ament_install'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src/gazebo_project) by extensions ['colcon_pkg']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src/gazebo_project) by extension 'colcon_pkg'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src/gazebo_project) by extensions ['colcon_meta']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src/gazebo_project) by extension 'colcon_meta'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src/gazebo_project) by extensions ['ros']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src/gazebo_project) by extension 'ros'
+[0.672s] DEBUG:colcon.colcon_core.package_identification:Package 'autonomous-vehicle-end-to-end-control-project-template/src/gazebo_project' with type 'ros.ament_python' and name 'gazebo_project'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src/perception_and_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src/perception_and_controller) by extension 'ignore'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src/perception_and_controller) by extension 'ignore_ament_install'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src/perception_and_controller) by extensions ['colcon_pkg']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src/perception_and_controller) by extension 'colcon_pkg'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src/perception_and_controller) by extensions ['colcon_meta']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src/perception_and_controller) by extension 'colcon_meta'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src/perception_and_controller) by extensions ['ros']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous-vehicle-end-to-end-control-project-template/src/perception_and_controller) by extension 'ros'
+[0.675s] DEBUG:colcon.colcon_core.package_identification:Package 'autonomous-vehicle-end-to-end-control-project-template/src/perception_and_controller' with type 'ros.ament_python' and name 'perception_and_controller'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.745s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 304 installed packages in /opt/ros/humble
+[0.747s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.802s] Level 5:colcon.colcon_core.verb:set package 'gazebo_project' build argument 'cmake_args' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'gazebo_project' build argument 'cmake_target' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'gazebo_project' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'gazebo_project' build argument 'cmake_clean_cache' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'gazebo_project' build argument 'cmake_clean_first' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'gazebo_project' build argument 'cmake_force_configure' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'gazebo_project' build argument 'ament_cmake_args' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'gazebo_project' build argument 'catkin_cmake_args' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'gazebo_project' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.803s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_project' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/gazebo_project', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project', 'merge_install': False, 'path': '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/autonomous-vehicle-end-to-end-control-project-template/src/gazebo_project', 'symlink_install': False, 'test_result_base': None}
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'perception_and_controller' build argument 'cmake_args' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'perception_and_controller' build argument 'cmake_target' from command line to 'None'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'perception_and_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'perception_and_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'perception_and_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.803s] Level 5:colcon.colcon_core.verb:set package 'perception_and_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'perception_and_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'perception_and_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.804s] Level 5:colcon.colcon_core.verb:set package 'perception_and_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.804s] DEBUG:colcon.colcon_core.verb:Building package 'perception_and_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/perception_and_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller', 'merge_install': False, 'path': '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/autonomous-vehicle-end-to-end-control-project-template/src/perception_and_controller', 'symlink_install': False, 'test_result_base': None}
+[0.804s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.805s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.805s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/autonomous-vehicle-end-to-end-control-project-template/src/gazebo_project' with build type 'ament_python'
+[0.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_project', 'ament_prefix_path')
+[0.814s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/share/gazebo_project/hook/ament_prefix_path.ps1'
+[0.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/share/gazebo_project/hook/ament_prefix_path.dsv'
+[0.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/share/gazebo_project/hook/ament_prefix_path.sh'
+[0.820s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.820s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.825s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/autonomous-vehicle-end-to-end-control-project-template/src/perception_and_controller' with build type 'ament_python'
+[0.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_and_controller', 'ament_prefix_path')
+[0.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller/share/perception_and_controller/hook/ament_prefix_path.ps1'
+[0.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller/share/perception_and_controller/hook/ament_prefix_path.dsv'
+[0.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller/share/perception_and_controller/hook/ament_prefix_path.sh'
+[0.830s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.830s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.367s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/autonomous-vehicle-end-to-end-control-project-template/src/gazebo_project'
+[1.368s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.368s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.877s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/autonomous-vehicle-end-to-end-control-project-template/src/perception_and_controller'
+[1.878s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.878s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/autonomous-vehicle-end-to-end-control-project-template/src/perception_and_controller': PYTHONPATH=/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/perception_and_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/perception_and_controller build --build-base /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/perception_and_controller/build install --record /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/perception_and_controller/install.log --single-version-externally-managed install_data
+[2.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/autonomous-vehicle-end-to-end-control-project-template/src/gazebo_project': PYTHONPATH=/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/gazebo_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/gazebo_project build --build-base /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/gazebo_project/build install --record /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/gazebo_project/install.log --single-version-externally-managed install_data
+[3.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/autonomous-vehicle-end-to-end-control-project-template/src/gazebo_project' returned '0': PYTHONPATH=/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/gazebo_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/gazebo_project build --build-base /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/gazebo_project/build install --record /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/gazebo_project/install.log --single-version-externally-managed install_data
+[3.311s] Level 1:colcon.colcon_core.environment:checking '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project' for CMake module files
+[3.312s] Level 1:colcon.colcon_core.environment:checking '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project' for CMake config files
+[3.313s] Level 1:colcon.colcon_core.environment:checking '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/lib'
+[3.314s] Level 1:colcon.colcon_core.environment:checking '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/bin'
+[3.314s] Level 1:colcon.colcon_core.environment:checking '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/lib/pkgconfig/gazebo_project.pc'
+[3.314s] Level 1:colcon.colcon_core.environment:checking '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/lib/python3.10/site-packages'
+[3.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_project', 'pythonpath')
+[3.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/share/gazebo_project/hook/pythonpath.ps1'
+[3.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/share/gazebo_project/hook/pythonpath.dsv'
+[3.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/share/gazebo_project/hook/pythonpath.sh'
+[3.317s] Level 1:colcon.colcon_core.environment:checking '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/bin'
+[3.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_project)
+[3.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/share/gazebo_project/package.ps1'
+[3.319s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/share/gazebo_project/package.dsv'
+[3.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/share/gazebo_project/package.sh'
+[3.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/share/gazebo_project/package.bash'
+[3.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/share/gazebo_project/package.zsh'
+[3.325s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/share/colcon-core/packages/gazebo_project)
+[3.326s] Level 1:colcon.colcon_core.environment:checking '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller' for CMake module files
+[3.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/autonomous-vehicle-end-to-end-control-project-template/src/perception_and_controller' returned '0': PYTHONPATH=/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/perception_and_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/perception_and_controller build --build-base /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/perception_and_controller/build install --record /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/perception_and_controller/install.log --single-version-externally-managed install_data
+[3.329s] Level 1:colcon.colcon_core.environment:checking '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller' for CMake config files
+[3.330s] Level 1:colcon.colcon_core.environment:checking '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller/lib'
+[3.331s] Level 1:colcon.colcon_core.environment:checking '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller/bin'
+[3.331s] Level 1:colcon.colcon_core.environment:checking '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller/lib/pkgconfig/perception_and_controller.pc'
+[3.331s] Level 1:colcon.colcon_core.environment:checking '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller/lib/python3.10/site-packages'
+[3.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_and_controller', 'pythonpath')
+[3.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller/share/perception_and_controller/hook/pythonpath.ps1'
+[3.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller/share/perception_and_controller/hook/pythonpath.dsv'
+[3.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller/share/perception_and_controller/hook/pythonpath.sh'
+[3.334s] Level 1:colcon.colcon_core.environment:checking '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller/bin'
+[3.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perception_and_controller)
+[3.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller/share/perception_and_controller/package.ps1'
+[3.337s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller/share/perception_and_controller/package.dsv'
+[3.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller/share/perception_and_controller/package.sh'
+[3.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller/share/perception_and_controller/package.bash'
+[3.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller/share/perception_and_controller/package.zsh'
+[3.341s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/perception_and_controller/share/colcon-core/packages/perception_and_controller)
+[3.342s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.343s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.344s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.344s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.360s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.361s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.361s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.403s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.403s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/local_setup.ps1'
+[3.405s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/_local_setup_util_ps1.py'
+[3.409s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/setup.ps1'
+[3.411s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/local_setup.sh'
+[3.414s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/_local_setup_util_sh.py'
+[3.417s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/setup.sh'
+[3.425s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/local_setup.bash'
+[3.435s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/setup.bash'
+[3.441s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/local_setup.zsh'
+[3.447s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/setup.zsh'

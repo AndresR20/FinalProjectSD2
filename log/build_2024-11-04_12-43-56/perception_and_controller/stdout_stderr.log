@@ -1,0 +1,23 @@
+running egg_info
+writing ../../../build/perception_and_controller/perception_and_controller.egg-info/PKG-INFO
+writing dependency_links to ../../../build/perception_and_controller/perception_and_controller.egg-info/dependency_links.txt
+writing entry points to ../../../build/perception_and_controller/perception_and_controller.egg-info/entry_points.txt
+writing requirements to ../../../build/perception_and_controller/perception_and_controller.egg-info/requires.txt
+writing top-level names to ../../../build/perception_and_controller/perception_and_controller.egg-info/top_level.txt
+reading manifest file '../../../build/perception_and_controller/perception_and_controller.egg-info/SOURCES.txt'
+writing manifest file '../../../build/perception_and_controller/perception_and_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying perception_and_controller/controller.py -> /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/build/perception_and_controller/build/lib/perception_and_controller
+running install
+running install_lib
+copying /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/build/perception_and_controller/build/lib/perception_and_controller/controller.py -> /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/install/perception_and_controller/lib/python3.10/site-packages/perception_and_controller
+byte-compiling /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/install/perception_and_controller/lib/python3.10/site-packages/perception_and_controller/controller.py to controller.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/install/perception_and_controller/lib/python3.10/site-packages/perception_and_controller-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/perception_and_controller/perception_and_controller.egg-info to /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/install/perception_and_controller/lib/python3.10/site-packages/perception_and_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller script to /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/install/perception_and_controller/lib/perception_and_controller
+Installing perception script to /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/install/perception_and_controller/lib/perception_and_controller
+writing list of installed files to '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template/build/perception_and_controller/install.log'

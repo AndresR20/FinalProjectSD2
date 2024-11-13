@@ -1,0 +1,3 @@
+[console_scripts]
+odometry_tf = gazebo_project.odometry_tf:main
+

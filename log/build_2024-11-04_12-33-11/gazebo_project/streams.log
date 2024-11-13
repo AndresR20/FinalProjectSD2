@@ -1,0 +1,21 @@
+[1.422s] Invoking command in '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/autonomous-vehicle-end-to-end-control-project-template/src/gazebo_project': PYTHONPATH=/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/gazebo_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/gazebo_project build --build-base /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/gazebo_project/build install --record /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/gazebo_project/install.log --single-version-externally-managed install_data
+[1.803s] running egg_info
+[1.804s] writing ../../../build/gazebo_project/gazebo_project.egg-info/PKG-INFO
+[1.805s] writing dependency_links to ../../../build/gazebo_project/gazebo_project.egg-info/dependency_links.txt
+[1.805s] writing entry points to ../../../build/gazebo_project/gazebo_project.egg-info/entry_points.txt
+[1.806s] writing requirements to ../../../build/gazebo_project/gazebo_project.egg-info/requires.txt
+[1.806s] writing top-level names to ../../../build/gazebo_project/gazebo_project.egg-info/top_level.txt
+[1.809s] reading manifest file '../../../build/gazebo_project/gazebo_project.egg-info/SOURCES.txt'
+[1.811s] writing manifest file '../../../build/gazebo_project/gazebo_project.egg-info/SOURCES.txt'
+[1.811s] running build
+[1.811s] running build_py
+[1.812s] running install
+[1.812s] running install_lib
+[1.814s] running install_data
+[1.815s] running install_egg_info
+[1.818s] removing '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/lib/python3.10/site-packages/gazebo_project-0.0.0-py3.10.egg-info' (and everything under it)
+[1.818s] Copying ../../../build/gazebo_project/gazebo_project.egg-info to /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/lib/python3.10/site-packages/gazebo_project-0.0.0-py3.10.egg-info
+[1.821s] running install_scripts
+[1.853s] Installing odometry_tf script to /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/lib/gazebo_project
+[1.853s] writing list of installed files to '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/gazebo_project/install.log'
+[1.919s] Invoked command in '/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/autonomous-vehicle-end-to-end-control-project-template/src/gazebo_project' returned '0': PYTHONPATH=/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/gazebo_project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/install/gazebo_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/gazebo_project build --build-base /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/gazebo_project/build install --record /home/andres/Documents/autonomous-vehicle-end-to-end-control-project-template 1/build/gazebo_project/install.log --single-version-externally-managed install_data
